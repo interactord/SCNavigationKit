@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2983AC8F2297B46000B872C0 /* ScrollNavigationItemTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2983AC8E2297B46000B872C0 /* ScrollNavigationItemTransition.swift */; };
-		2983ACA02297D0F400B872C0 /* CGFloat+CGAffineTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2983AC9F2297D0F400B872C0 /* CGFloat+CGAffineTransform.swift */; };
 		2983ACA62297F3E900B872C0 /* NavigationBarButtonState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2983ACA52297F3E900B872C0 /* NavigationBarButtonState.swift */; };
 		2983ACA92297F45700B872C0 /* ScrollAnimatedBarButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2983ACA82297F45700B872C0 /* ScrollAnimatedBarButton.swift */; };
 		29CCA3422297B014003638FB /* SCNavigationKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29CCA3382297B013003638FB /* SCNavigationKit.framework */; };
@@ -27,8 +25,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2983AC8E2297B46000B872C0 /* ScrollNavigationItemTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollNavigationItemTransition.swift; sourceTree = "<group>"; };
-		2983AC9F2297D0F400B872C0 /* CGFloat+CGAffineTransform.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGFloat+CGAffineTransform.swift"; sourceTree = "<group>"; };
 		2983ACA52297F3E900B872C0 /* NavigationBarButtonState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarButtonState.swift; sourceTree = "<group>"; };
 		2983ACA82297F45700B872C0 /* ScrollAnimatedBarButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollAnimatedBarButton.swift; sourceTree = "<group>"; };
 		29CCA3382297B013003638FB /* SCNavigationKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SCNavigationKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -62,8 +58,6 @@
 			isa = PBXGroup;
 			children = (
 				2983ACA72297F44900B872C0 /* ScrollAnimatedBarButton */,
-				2983AC9C2297C1C300B872C0 /* Extension */,
-				2983AC9B2297BA2400B872C0 /* ScrollTransition */,
 				2983AC8D2297B3F900B872C0 /* State */,
 			);
 			path = sources;
@@ -75,22 +69,6 @@
 				2983ACA52297F3E900B872C0 /* NavigationBarButtonState.swift */,
 			);
 			path = State;
-			sourceTree = "<group>";
-		};
-		2983AC9B2297BA2400B872C0 /* ScrollTransition */ = {
-			isa = PBXGroup;
-			children = (
-				2983AC8E2297B46000B872C0 /* ScrollNavigationItemTransition.swift */,
-			);
-			path = ScrollTransition;
-			sourceTree = "<group>";
-		};
-		2983AC9C2297C1C300B872C0 /* Extension */ = {
-			isa = PBXGroup;
-			children = (
-				2983AC9F2297D0F400B872C0 /* CGFloat+CGAffineTransform.swift */,
-			);
-			path = Extension;
 			sourceTree = "<group>";
 		};
 		2983ACA72297F44900B872C0 /* ScrollAnimatedBarButton */ = {
@@ -288,9 +266,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2983ACA02297D0F400B872C0 /* CGFloat+CGAffineTransform.swift in Sources */,
 				2983ACA62297F3E900B872C0 /* NavigationBarButtonState.swift in Sources */,
-				2983AC8F2297B46000B872C0 /* ScrollNavigationItemTransition.swift in Sources */,
 				2983ACA92297F45700B872C0 /* ScrollAnimatedBarButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
